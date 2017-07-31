@@ -35,6 +35,8 @@ black_panther = media.Movie("Black Panther",
 movies = [doctor_strange, thor_ragnarok, spiderman_homecoming,
           guardians_of_the_galaxy2, captain_america_civil_war, black_panther]
 
+# This function invokes the list of movie objects as input to create an HTML
+# file and open it through the browser.
 fresh_tomatoes.open_movies_page(movies)
 
 
